@@ -1,3 +1,2 @@
-const load = () => {}
-
+const load = () => {};
 export default load;

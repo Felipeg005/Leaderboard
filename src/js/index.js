@@ -1,5 +1,5 @@
-import _ from 'lodash';
+import _ from 'lodash';// eslint-disable-line
 import '../style.css';
-import load from '../js/modules/load'
+import load from './modules/load';
 
-document.addEventListener('DOMContentLoaded', load);
+window.addEventListener('DOMContentLoaded', load);

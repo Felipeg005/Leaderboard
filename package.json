@@ -8,6 +8,7 @@
   "jest": {
     "testEnvironment": "jsdom"
   },
+  
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.15.0",
     "babel-eslint": "^10.1.0",
