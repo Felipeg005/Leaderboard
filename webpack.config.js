@@ -5,26 +5,29 @@ module.exports = {
   mode: 'development',
   entry: './src/js/index.js',
   devServer: {
-    contentBase: './dist',
+    static: './dist'
   },
   output: {
     filename: 'main.bundle.js',
     path: path.resolve(__dirname, 'dist'),
+    clean: true,
+    publicPath: '/'
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/html/index.html',
+      title: 'Development',
+      template: './src/html/index.html'
     }),
   ],
   module: {
     rules: [
       {
         test: /\.css$/i,
-        use: ['style-loader', 'css-loader'],
+        use: ['style-loader', 'css-loader']
       },
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
-        type: 'asset/resource',
+        type: 'asset/resource'
       },
     ],
   },
