@@ -1,3 +1,20 @@
 body {
-  background-color: aquamarine;
+  background-color: rgb(231, 231, 231);
+}
+
+h1 {
+  font-size: 50px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+.recent-scores,
+.add-scores {
+  border: 1px solid black;
+  width: 50%;
+  height: 60vh;
+  margin: 40px;
 }
