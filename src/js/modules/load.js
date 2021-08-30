@@ -1,8 +1,3 @@
-const load = () => {
-  const recentContainer = document.getElementById('recent-scores');
-  const addContainer = document.getElementById('add-scores');
-  
-
-}
+const load = () => {}
 
 export default load;
