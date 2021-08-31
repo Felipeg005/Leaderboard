@@ -125,7 +125,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, style) {\
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../style.css */ \"./src/style.css\");\n/* harmony import */ var _modules_load__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/load */ \"./src/js/modules/load.js\");\n// eslint-disable-line\n\n\n\nwindow.addEventListener('DOMContentLoaded', _modules_load__WEBPACK_IMPORTED_MODULE_2__.default);\n\n//# sourceURL=webpack:///./src/js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../style.css */ \"./src/style.css\");\n/* harmony import */ var _modules_load__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/load */ \"./src/js/modules/load.js\");\n/* harmony import */ var _modules_request_leaderboard__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/request-leaderboard */ \"./src/js/modules/request-leaderboard.js\");\n/* harmony import */ var _modules_request_leaderboard__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_modules_request_leaderboard__WEBPACK_IMPORTED_MODULE_3__);\n// eslint-disable-line\n\n\n\n\nwindow.addEventListener('DOMContentLoaded', () => {\n  (0,_modules_load__WEBPACK_IMPORTED_MODULE_2__.default)();\n  _modules_request_leaderboard__WEBPACK_IMPORTED_MODULE_3___default()();\n});\n\n//# sourceURL=webpack:///./src/js/index.js?");
 
 /***/ }),
 
@@ -137,6 +137,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var loda
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst load = () => {\n  const recentContainer = document.getElementById('recent-scores');\n  const addContainer = document.getElementById('add-scores');\n  const recentHtml = `<div class=\"title-container\">\n    <h2 class=\"recent-title\">Recent Scores</h2>\n    <button>Refresh</button>\n  </div>\n  <ul class=\"list\">\n    <li id=\"1\"><p>Name : 20</p></li>\n    <li id=\"2\"><p>Name : 200</p></li>\n    <li id=\"3\"><p>Name : 10</p></li>\n    <li id=\"4\"><p>Name : 100</p></li>\n    <li id=\"5\"><p>Name : 50</p></li>\n    <li id=\"6\"><p>Name : 30</p></li>\n  </ul>`;\n  const addHtml = `<div class=\"title-container\">\n    <h2 class=\"add-title\">Add Your Score</h2>\n  </div>\n  <form class=\"form\">\n    <input class=\"input-name\" type=\"text\" placeholder=\"Your Name\">\n    <input class=\"input-score\" type=\"text\" placeholder=\"Your Score\">\n    <button class=\"submit-button\" type=\"submit\">Submit</button>\n  </form>`;\n  recentContainer.innerHTML = recentHtml;\n  addContainer.innerHTML = addHtml;\n  const allLi = document.querySelectorAll('li');\n  allLi.forEach((element) => {\n    if ((element.id % 2) !== 0) {\n      element.style.backgroundColor = 'rgb(231, 231, 231)';\n    }\n  });\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (load);\n\n//# sourceURL=webpack:///./src/js/modules/load.js?");
+
+/***/ }),
+
+/***/ "./src/js/modules/request-leaderboard.js":
+/*!***********************************************!*\
+  !*** ./src/js/modules/request-leaderboard.js ***!
+  \***********************************************/
+/***/ (() => {
+
+eval("const leaderboardData = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/';\n\nconst leaderboard = () => {\nconst gotLeaderboard = (data) => {\n  console.log(data)\n}\nconst errorLeaderboard = (err) => {\n  console.log(data)\n};\nfetch(leaderboardData).then(gotLeaderboard).catch(errorLeaderboard);\n}\n\nleaderboard();\n\n\n\n//# sourceURL=webpack:///./src/js/modules/request-leaderboard.js?");
 
 /***/ })
 
