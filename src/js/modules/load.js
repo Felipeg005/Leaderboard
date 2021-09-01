@@ -19,7 +19,7 @@ const load = () => {
   <form class="form">
     <input class="input-name" type="text" placeholder="Your Name">
     <input class="input-score" type="text" placeholder="Your Score">
-    <button class="submit-button" type="submit">Submit</button>
+    <button onclick="postScores()" class="submit-button" type="submit">Submit</button>
   </form>`;
   recentContainer.innerHTML = recentHtml;
   addContainer.innerHTML = addHtml;
