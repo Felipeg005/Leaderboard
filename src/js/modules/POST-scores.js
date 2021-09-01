@@ -1,6 +1,7 @@
 const myGameUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/fOiEcJqrUPnT8bykVBXu/scores/';
 
-const postScores = () => {
+const postScores = (e) => {
+  e.preventDefault();
   const inputName = document.querySelector('.input-name');
   const inputScore = document.querySelector('.input-score');
   fetch(myGameUrl, {
