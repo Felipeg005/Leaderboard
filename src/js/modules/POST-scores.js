@@ -4,7 +4,7 @@ const postScores = (e) => {
   e.preventDefault();
   const inputName = document.querySelector('.input-name');
   const inputScore = document.querySelector('.input-score');
-  fetch(myGameUrl, {
+  return fetch(myGameUrl, {
     method: 'POST',
     body: JSON.stringify({
       user: `${inputName.value}`,
@@ -15,7 +15,10 @@ const postScores = (e) => {
   }
   })
   .then(response => response.json())
-  .then(json => console.log(json))
+  .then(json => {
+    console.log(json)
+    window.location.reload();
+  })
   .catch(error => console.error('Error:', error))
 };
 

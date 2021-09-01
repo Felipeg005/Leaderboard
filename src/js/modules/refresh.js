@@ -1,6 +1,6 @@
 const refresh = (e) => {
   if (e) {
-    window.location.reload()
+    window.location.reload();
   }
 }
 
