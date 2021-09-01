@@ -3,7 +3,11 @@ const myGameUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/ap
 const getScores = () => {
 fetch(myGameUrl)
 .then(response => response.json())
-.then(json => console.log(json));
+.then((json) => {
+  return new Promise(resolve => {
+    resolve(json);
+  })
+});
 };
 
 export default getScores;
