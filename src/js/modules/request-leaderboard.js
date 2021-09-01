@@ -1,7 +1,7 @@
-const leaderboardData = 'http://us-central1-js-capstone-backend.cloudfunctions.net/api/games/';
+const leaderboardData = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/';
 
 const leaderboard = () => {
-fetch(leaderboardData, JSON.stringify({
+fetch(leaderboardData, {
   method: 'POST',
   body: JSON.stringify({
     name: 'My Pokemon Game'
@@ -13,6 +13,6 @@ fetch(leaderboardData, JSON.stringify({
 .then(response => response.json())
 .then(json => console.log(json))
 .catch(error => console.error('Error:', error))
-)};
+};
 
 export default leaderboard;
