@@ -13,8 +13,8 @@ const load = () => {
     <h2 class="add-title">Add Your Score</h2>
   </div>
   <form class="form">
-    <input class="input-name" type="text" placeholder="Your Name">
-    <input class="input-score" type="text" placeholder="Your Score">
+    <input class="input-name" type="text" placeholder="Your Name" required>
+    <input class="input-score" type="number" placeholder="Your Score" required>
     <button class="submit-button" type="submit">Submit</button>
   </form>`;
   recentContainer.innerHTML = recentHtml;
