@@ -19,14 +19,14 @@ const load = () => {
   </form>`;
   recentContainer.innerHTML = recentHtml;
   addContainer.innerHTML = addHtml;
-  const form = document.querySelector('.form')
+  const form = document.querySelector('.form');
   form.addEventListener('submit', (...e) => {
-    postScores(...e)
-  })
-  const refreshButton = document.querySelector('.refresh-button')
+    postScores(...e);
+  });
+  const refreshButton = document.querySelector('.refresh-button');
   refreshButton.addEventListener('click', (...e) => {
-    refresh(...e)
-  })
+    refresh(...e);
+  });
 };
 
 export default load;

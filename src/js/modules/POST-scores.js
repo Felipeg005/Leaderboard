@@ -8,18 +8,17 @@ const postScores = (e) => {
     method: 'POST',
     body: JSON.stringify({
       user: `${inputName.value}`,
-      score: `${inputScore.value}`
+      score: `${inputScore.value}`,
     }),
     headers: {
-      "Content-type": "application/json; charset=UTF-8"
-  }
+      'Content-type': 'application/json; charset=UTF-8',
+    },
   })
-  .then(response => response.json())
-  .then(json => {
-    console.log(json)
-    window.location.reload();
-  })
-  .catch(error => console.error('Error:', error))
+    .then((response) => response.json())
+    .then(() => {
+      window.location.reload();
+    })
+    .catch((error) => console.error('Error:', error));// eslint-disable-line
 };
 
 export default postScores;
