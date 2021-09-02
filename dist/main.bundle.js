@@ -16,7 +16,7 @@
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body {\\n  background-color: white;\\n}\\n\\nul {\\n  padding: 0;\\n  margin: 0;\\n}\\n\\nli {\\n  list-style-type: none;\\n  width: 100%;\\n  background-color: white;\\n  margin: 0;\\n}\\n\\np {\\n  padding: 10px 15px;\\n  margin: 0;\\n}\\n\\nh1 {\\n  font-size: 50px;\\n}\\n\\nmain {\\n  display: flex;\\n  flex-direction: row;\\n}\\n\\ninput {\\n  margin-bottom: 15px;\\n  padding: 5px 0;\\n  border-radius: 5px;\\n}\\n\\n.recent-scores,\\n.add-scores {\\n  width: 50%;\\n  height: 60vh;\\n  margin: 40px;\\n}\\n\\n.title-container {\\n  display: flex;\\n  margin-left: auto;\\n  flex-direction: row;\\n  align-items: center;\\n  justify-content: space-between;\\n  padding: 1px 15px;\\n}\\n\\n.add-title {\\n  margin-left: 50px;\\n}\\n\\n.form {\\n  display: flex;\\n  flex-direction: column;\\n  margin-left: 50px;\\n  width: 80%;\\n  padding: 10px;\\n}\\n\\n.submit-button {\\n  width: 20%;\\n  margin-left: auto;\\n  margin-top: 15px;\\n}\\n\\n.list {\\n  border: 1px solid black;\\n  overflow-y: scroll;\\n  height: 50vh;\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack:///./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./img/game-background-3.jpg */ \"./src/img/game-background-3.jpg\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});\n___CSS_LOADER_EXPORT___.push([module.id, \"@import url(https://fonts.googleapis.com/css2?family=Knewave&display=swap);\"]);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(___CSS_LOADER_URL_IMPORT_0___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body {\\n  background-color: white;\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\n  font-family: 'Knewave';\\n  color: white;\\n  text-shadow: 1px 1px 4px cornflowerblue;\\n}\\n\\nul {\\n  padding: 0;\\n  margin: 0;\\n}\\n\\nli {\\n  list-style-type: none;\\n  width: 100%;\\n  background-color: rgba(11, 18, 107, 0.5);\\n  margin: 0;\\n  font-family: sans-serif;\\n  color: white;\\n  text-shadow: 1px 1px 4px cornflowerblue;\\n}\\n\\np {\\n  padding: 10px 15px;\\n  margin: 0;\\n}\\n\\nh1 {\\n  font-size: 50px;\\n}\\n\\nmain {\\n  display: flex;\\n  flex-direction: row;\\n}\\n\\ninput {\\n  margin-bottom: 15px;\\n  padding: 5px 0;\\n  border-radius: 5px;\\n}\\n\\n.recent-scores,\\n.add-scores {\\n  width: 50%;\\n  height: 60vh;\\n  margin: 40px;\\n}\\n\\n.title-container {\\n  display: flex;\\n  margin-left: auto;\\n  flex-direction: row;\\n  align-items: center;\\n  justify-content: space-between;\\n  padding: 1px 15px;\\n}\\n\\n.add-title {\\n  margin-left: 50px;\\n}\\n\\n.form {\\n  display: flex;\\n  flex-direction: column;\\n  margin-left: 50px;\\n  width: 80%;\\n  padding: 10px;\\n}\\n\\n.submit-button {\\n  width: 20%;\\n  margin-left: auto;\\n  margin-top: 15px;\\n}\\n\\n.list {\\n  border: 1px solid black;\\n  overflow-y: scroll;\\n  height: 50vh;\\n}\\n\\n.refresh-button {\\n  background-color: transparent;\\n  border: none;\\n}\\n\\n.refresh-img{\\n  width: 40px;\\n  height: 40px;\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack:///./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -28,6 +28,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 "use strict";
 eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\n// eslint-disable-next-line func-names\nmodule.exports = function (cssWithMappingToString) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = cssWithMappingToString(item);\n\n      if (item[2]) {\n        return \"@media \".concat(item[2], \" {\").concat(content, \"}\");\n      }\n\n      return content;\n    }).join(\"\");\n  }; // import a list of modules into the list\n  // eslint-disable-next-line func-names\n\n\n  list.i = function (modules, mediaQuery, dedupe) {\n    if (typeof modules === \"string\") {\n      // eslint-disable-next-line no-param-reassign\n      modules = [[null, modules, \"\"]];\n    }\n\n    var alreadyImportedModules = {};\n\n    if (dedupe) {\n      for (var i = 0; i < this.length; i++) {\n        // eslint-disable-next-line prefer-destructuring\n        var id = this[i][0];\n\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n\n    for (var _i = 0; _i < modules.length; _i++) {\n      var item = [].concat(modules[_i]);\n\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        // eslint-disable-next-line no-continue\n        continue;\n      }\n\n      if (mediaQuery) {\n        if (!item[2]) {\n          item[2] = mediaQuery;\n        } else {\n          item[2] = \"\".concat(mediaQuery, \" and \").concat(item[2]);\n        }\n      }\n\n      list.push(item);\n    }\n  };\n\n  return list;\n};\n\n//# sourceURL=webpack:///./node_modules/css-loader/dist/runtime/api.js?");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/***/ ((module) => {
+
+"use strict";
+eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    // eslint-disable-next-line no-param-reassign\n    options = {};\n  }\n\n  if (!url) {\n    return url;\n  } // eslint-disable-next-line no-underscore-dangle, no-param-reassign\n\n\n  url = String(url.__esModule ? url.default : url); // If url is already wrapped in quotes, remove them\n\n  if (/^['\"].*['\"]$/.test(url)) {\n    // eslint-disable-next-line no-param-reassign\n    url = url.slice(1, -1);\n  }\n\n  if (options.hash) {\n    // eslint-disable-next-line no-param-reassign\n    url += options.hash;\n  } // Should url be wrapped?\n  // See https://drafts.csswg.org/css-values-3/#urls\n\n\n  if (/[\"'() \\t\\n]|(%20)/.test(url) || options.needQuotes) {\n    return \"\\\"\".concat(url.replace(/\"/g, '\\\\\"').replace(/\\n/g, \"\\\\n\"), \"\\\"\");\n  }\n\n  return url;\n};\n\n//# sourceURL=webpack:///./node_modules/css-loader/dist/runtime/getUrl.js?");
 
 /***/ }),
 
@@ -158,7 +169,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _GET_scores__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./GET-scores */ \"./src/js/modules/GET-scores.js\");\n\n\nconst loadScores = async () => {\n  const ulList = document.querySelector('.list');\n  const scoresObject = await (0,_GET_scores__WEBPACK_IMPORTED_MODULE_0__.default)();\n  const scoresArray = scoresObject.result;\n  let count = 1;\n  scoresArray.forEach((element) => {\n    ulList.innerHTML += `<li id=\"${count}\"><p>${element.user} : ${element.score}</p></li>`;\n    count += 1;\n  });\n  const allLi = document.querySelectorAll('li');\n  allLi.forEach((element) => {\n    if ((element.id % 2) !== 0) {\n      element.style.backgroundColor = 'rgb(231, 231, 231)';\n    }\n  });\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadScores);\n\n//# sourceURL=webpack:///./src/js/modules/load-scores.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _GET_scores__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./GET-scores */ \"./src/js/modules/GET-scores.js\");\n\n\nconst loadScores = async () => {\n  const ulList = document.querySelector('.list');\n  const scoresObject = await (0,_GET_scores__WEBPACK_IMPORTED_MODULE_0__.default)();\n  const scoresArray = scoresObject.result;\n  let count = 1;\n  scoresArray.forEach((element) => {\n    ulList.innerHTML += `<li id=\"${count}\"><p>${element.user} : ${element.score}</p></li>`;\n    count += 1;\n  });\n  const allLi = document.querySelectorAll('li');\n  allLi.forEach((element) => {\n    if ((element.id % 2) !== 0) {\n      element.style.backgroundColor = 'rgb(192 252 255 / 37%)';\n      element.style.color = 'white';\n    }\n  });\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadScores);\n\n//# sourceURL=webpack:///./src/js/modules/load-scores.js?");
 
 /***/ }),
 
@@ -169,7 +180,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _POST_scores__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./POST-scores */ \"./src/js/modules/POST-scores.js\");\n/* harmony import */ var _refresh__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./refresh */ \"./src/js/modules/refresh.js\");\n\n\n\nconst load = () => {\n  const recentContainer = document.getElementById('recent-scores');\n  const addContainer = document.getElementById('add-scores');\n  const recentHtml = `<div class=\"title-container\">\n    <h2 class=\"recent-title\">Recent Scores</h2>\n    <button class=\"refresh-button\">Refresh</button>\n  </div>\n  <ul class=\"list\"></ul>`;\n  const addHtml = `<div class=\"title-container\">\n    <h2 class=\"add-title\">Add Your Score</h2>\n  </div>\n  <form class=\"form\">\n    <input class=\"input-name\" type=\"text\" placeholder=\"Your Name\" required>\n    <input class=\"input-score\" type=\"number\" placeholder=\"Your Score\" required>\n    <button class=\"submit-button\" type=\"submit\">Submit</button>\n  </form>`;\n  recentContainer.innerHTML = recentHtml;\n  addContainer.innerHTML = addHtml;\n  const form = document.querySelector('.form');\n  form.addEventListener('submit', (...e) => {\n    (0,_POST_scores__WEBPACK_IMPORTED_MODULE_0__.default)(...e);\n  });\n  const refreshButton = document.querySelector('.refresh-button');\n  refreshButton.addEventListener('click', (...e) => {\n    (0,_refresh__WEBPACK_IMPORTED_MODULE_1__.default)(...e);\n  });\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (load);\n\n//# sourceURL=webpack:///./src/js/modules/load.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _POST_scores__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./POST-scores */ \"./src/js/modules/POST-scores.js\");\n/* harmony import */ var _refresh__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./refresh */ \"./src/js/modules/refresh.js\");\n\n\n\nconst load = () => {\n  const recentContainer = document.getElementById('recent-scores');\n  const addContainer = document.getElementById('add-scores');\n  const recentHtml = `<div class=\"title-container\">\n    <h2 class=\"recent-title\">Recent Scores</h2>\n    <button class=\"refresh-button\"><img class=\"refresh-img\" src=\"./img/refreshbutton.png\" alt=\"refresh button\"></button>\n  </div>\n  <ul class=\"list\"></ul>`;\n  const addHtml = `<div class=\"title-container\">\n    <h2 class=\"add-title\">Add Your Score</h2>\n  </div>\n  <form class=\"form\">\n    <input class=\"input-name\" type=\"text\" placeholder=\"Your Name\" required>\n    <input class=\"input-score\" type=\"number\" placeholder=\"Your Score\" required>\n    <button class=\"submit-button\" type=\"submit\">Submit</button>\n  </form>`;\n  recentContainer.innerHTML = recentHtml;\n  addContainer.innerHTML = addHtml;\n  const form = document.querySelector('.form');\n  form.addEventListener('submit', (...e) => {\n    (0,_POST_scores__WEBPACK_IMPORTED_MODULE_0__.default)(...e);\n  });\n  const refreshButton = document.querySelector('.refresh-button');\n  refreshButton.addEventListener('click', (...e) => {\n    (0,_refresh__WEBPACK_IMPORTED_MODULE_1__.default)(...e);\n  });\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (load);\n\n//# sourceURL=webpack:///./src/js/modules/load.js?");
 
 /***/ }),
 
@@ -181,6 +192,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst refresh = (e) => {\n  if (e) {\n    window.location.reload();\n  }\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (refresh);\n\n//# sourceURL=webpack:///./src/js/modules/refresh.js?");
+
+/***/ }),
+
+/***/ "./src/img/game-background-3.jpg":
+/*!***************************************!*\
+  !*** ./src/img/game-background-3.jpg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"cb718f3b94c4f5181dc6.jpg\";\n\n//# sourceURL=webpack:///./src/img/game-background-3.jpg?");
 
 /***/ })
 
@@ -212,6 +234,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
 /******/ 	}
+/******/ 	
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = __webpack_modules__;
 /******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
@@ -273,6 +298,52 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 			if (!module.children) module.children = [];
 /******/ 			return module;
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	(() => {
+/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
+/******/ 		
+/******/ 		// object to store loaded and loading chunks
+/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
+/******/ 		var installedChunks = {
+/******/ 			"main": 0
+/******/ 		};
+/******/ 		
+/******/ 		// no chunk on demand loading
+/******/ 		
+/******/ 		// no prefetching
+/******/ 		
+/******/ 		// no preloaded
+/******/ 		
+/******/ 		// no HMR
+/******/ 		
+/******/ 		// no HMR manifest
+/******/ 		
+/******/ 		// no on chunks loaded
+/******/ 		
+/******/ 		// no jsonp function
 /******/ 	})();
 /******/ 	
 /************************************************************************/

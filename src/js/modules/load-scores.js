@@ -12,7 +12,8 @@ const loadScores = async () => {
   const allLi = document.querySelectorAll('li');
   allLi.forEach((element) => {
     if ((element.id % 2) !== 0) {
-      element.style.backgroundColor = 'rgb(231, 231, 231)';
+      element.style.backgroundColor = 'rgb(192 252 255 / 37%)';
+      element.style.color = 'white';
     }
   });
 };
