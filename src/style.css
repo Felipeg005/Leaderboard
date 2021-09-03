@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+
 body {
   background-color: white;
+  background-image: url('./img/game-background-3.jpg');
+  font-family: 'Knewave', sans-serif;
+  color: white;
+  text-shadow: 1px 1px 4px cornflowerblue;
 }
 
 ul {
@@ -10,8 +16,11 @@ ul {
 li {
   list-style-type: none;
   width: 100%;
-  background-color: white;
+  background-color: rgba(11, 18, 107, 0.5);
   margin: 0;
+  font-family: sans-serif;
+  color: white;
+  text-shadow: 1px 1px 4px cornflowerblue;
 }
 
 p {
@@ -20,7 +29,8 @@ p {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 60px;
+  margin-left: 50px;
 }
 
 main {
@@ -28,10 +38,25 @@ main {
   flex-direction: row;
 }
 
-input {
+input,
+input:focus,
+input:hover {
   margin-bottom: 15px;
-  padding: 5px 0;
+  padding: 8px 0 8px 10px;
+  border: none;
   border-radius: 5px;
+  background-color: rgba(11, 18, 107, 0.5);
+  font-family: sans-serif;
+  font-size: 15px;
+  color: white;
+  text-shadow: 1px 1px 4px cornflowerblue;
+  outline: none;
+}
+
+input::placeholder {
+  color: white;
+  text-shadow: 1px 1px 4px cornflowerblue;
+  padding-left: 10px;
 }
 
 .recent-scores,
@@ -66,10 +91,34 @@ input {
   width: 20%;
   margin-left: auto;
   margin-top: 15px;
+  color: aliceblue;
+  font-weight: bolder;
+  background-color: cornflowerblue;
+  border: none;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.submit-button:hover {
+  background-color: rgb(98, 163, 201);
+  transition: 0.5s;
 }
 
 .list {
   border: 1px solid black;
   overflow-y: scroll;
   height: 50vh;
+}
+
+.refresh-button {
+  background-color: transparent;
+  border: none;
+  width: 30px;
+  height: 30px;
+}
+
+.refreshimg {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
 }

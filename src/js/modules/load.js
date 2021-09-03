@@ -1,12 +1,13 @@
 import postScores from './POST-scores';
 import refresh from './refresh';
+import refreshImg from '../../img/refreshbutton.png';
 
 const load = () => {
   const recentContainer = document.getElementById('recent-scores');
   const addContainer = document.getElementById('add-scores');
   const recentHtml = `<div class="title-container">
     <h2 class="recent-title">Recent Scores</h2>
-    <button class="refresh-button">Refresh</button>
+    <button class="refresh-button"><img class="refreshimg" src="${refreshImg}" alt=""></button>
   </div>
   <ul class="list"></ul>`;
   const addHtml = `<div class="title-container">
