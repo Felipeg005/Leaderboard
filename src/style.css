@@ -29,7 +29,8 @@ p {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 60px;
+  margin-left: 50px;
 }
 
 main {
@@ -40,7 +41,18 @@ main {
 input {
   margin-bottom: 15px;
   padding: 5px 0;
+  border: none;
   border-radius: 5px;
+  background-color: rgba(11, 18, 107, 0.5);
+  font-family: sans-serif;
+  color: white;
+  text-shadow: 1px 1px 4px cornflowerblue;
+}
+
+input::placeholder {
+  color: white;
+  text-shadow: 1px 1px 4px cornflowerblue;
+  padding-left: 10px;
 }
 
 .recent-scores,
@@ -75,6 +87,17 @@ input {
   width: 20%;
   margin-left: auto;
   margin-top: 15px;
+  color: aliceblue;
+  font-weight: bolder;
+  background-color: cornflowerblue;
+  border: none;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.submit-button:hover {
+  background-color: rgb(98, 163, 201);
+  transition: 0.5s;
 }
 
 .list {
