@@ -6,7 +6,7 @@ const load = () => {
   const addContainer = document.getElementById('add-scores');
   const recentHtml = `<div class="title-container">
     <h2 class="recent-title">Recent Scores</h2>
-    <button class="refresh-button"><img class="refresh-img" src="./img/refreshbutton.png" alt="refresh button"></button>
+    <button class="refresh-button"><img class="refreshimg" src="./img/refreshbutton.png" alt=""></button>
   </div>
   <ul class="list"></ul>`;
   const addHtml = `<div class="title-container">
