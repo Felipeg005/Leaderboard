@@ -1,6 +1,6 @@
 import postScores from './POST-scores';
 import refresh from './refresh';
-import refreshImg from '../../img/refreshbutton.png'
+import refreshImg from '../../img/refreshbutton.png';
 
 const load = () => {
   const recentContainer = document.getElementById('recent-scores');
