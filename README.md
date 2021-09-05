@@ -66,10 +66,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Thanks to Microverse for make it possible!
+- Thanks to Leaderboard API.
+- My game id response result: "Game with ID: fOiEcJqrUPnT8bykVBXu added."
 
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
-
-My game id response result: "Game with ID: fOiEcJqrUPnT8bykVBXu added."
