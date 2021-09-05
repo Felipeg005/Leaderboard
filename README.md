@@ -2,7 +2,7 @@
 
 > App to storage the name and score of the gamers.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./app_screenshot1.png)
 
 
 ## Built With
